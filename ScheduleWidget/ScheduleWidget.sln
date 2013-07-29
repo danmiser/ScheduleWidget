@@ -10,23 +10,34 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		manifest.nuspec = manifest.nuspec
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScheduleWidget.MonoTouch", "ScheduleWidget\ScheduleWidget.MonoTouch.csproj", "{B49D2976-2806-40EC-A7CE-9B0173861F58}"
+EndProject
 Global
-	GlobalSection(TestCaseManagementSettings) = postSolution
-		CategoryFile = ScheduleWidget.vsmdi
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{D3C50C97-90AE-4CC4-A4A3-9DC9F01E19E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D3C50C97-90AE-4CC4-A4A3-9DC9F01E19E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D3C50C97-90AE-4CC4-A4A3-9DC9F01E19E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D3C50C97-90AE-4CC4-A4A3-9DC9F01E19E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B49D2976-2806-40EC-A7CE-9B0173861F58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B49D2976-2806-40EC-A7CE-9B0173861F58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B49D2976-2806-40EC-A7CE-9B0173861F58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B49D2976-2806-40EC-A7CE-9B0173861F58}.Release|Any CPU.Build.0 = Release|Any CPU
 		{C7F36444-DD65-4BC5-8154-B42005BE22F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{C7F36444-DD65-4BC5-8154-B42005BE22F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C7F36444-DD65-4BC5-8154-B42005BE22F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C7F36444-DD65-4BC5-8154-B42005BE22F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3C50C97-90AE-4CC4-A4A3-9DC9F01E19E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3C50C97-90AE-4CC4-A4A3-9DC9F01E19E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3C50C97-90AE-4CC4-A4A3-9DC9F01E19E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3C50C97-90AE-4CC4-A4A3-9DC9F01E19E5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = ScheduleWidget\ScheduleWidget.csproj
+	EndGlobalSection
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = ScheduleWidget.vsmdi
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
